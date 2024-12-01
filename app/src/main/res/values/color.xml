@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 其他颜色定义 -->
+<color name="dividerColor">#CCCCCC</color> <!-- 浅灰色分隔线 -->
+</resources>
