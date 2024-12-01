@@ -10,7 +10,7 @@
 
 ui美化
 
-![Screenshot_20241201_202125]([Screenshot_20241201_202125)
+![Screenshot_20241201_202125](Screenshot_20241201_202125)
 
 可以改变背景颜![Screenshot_20241201_202131](Screenshot_20241201_202131.jpg)
 
