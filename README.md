@@ -1,46 +1,35 @@
-## 配置详情
+期中项目
 
-### 1. `使用JDK9的版本`
+基础功能：
 
-### 2. `gradle-wrapper.properties`
+时间戳+搜索
 
-请使用以下配置的 `distributionUrl`：
+![Screenshot_20241201_225213](C:\Users\86136\Downloads\Screenshot_20241201_225222.jpg)
 
-![Alt Text](./001.png)
+附加功能1
 
-```properties
-distributionUrl=https\://services.gradle.org/distributions/gradle-6.7.1-bin.zip
-```
+ui美化
 
-### 3.  `build.gradle(notepad)`
-classpath请使用3.4.0:
+![Screenshot_20241201_202125](C:\Users\86136\Downloads\Screenshot_20241201_202125.jpg)
 
-![Alt Text](./002.png)
+可以改变背景颜![Screenshot_20241201_202131](C:\Users\86136\Downloads\Screenshot_20241201_202131.jpg)
 
-```properties
-classpath="com.android.tools.build:gradle:3.4.0"
-```
-### 4. `build成功之后`
-#### 4.1 `Error:Execution failed for task ':app:packageDebug'... 出现这个报错`
-build.gradle（:app）中的 android{ ... } 中 添加：
+修改成白色背景![Screenshot_20241201_202230](C:\Users\86136\Downloads\Screenshot_20241201_202230.jpg)
 
-![Alt Text](./003.png)
+核心代码：
 
-```properties
-packagingOptions {
-    exclude 'META-INF/DEPENDENCIES.txt'
-    exclude 'META-INF/LICENSE.txt'
-    exclude 'META-INF/NOTICE.txt'
-    exclude 'META-INF/NOTICE'
-    exclude 'META-INF/LICENSE'
-    exclude 'META-INF/DEPENDENCIES'
-    exclude 'META-INF/notice.txt'
-    exclude 'META-INF/license.txt'
-    exclude 'META-INF/dependencies.txt'
-    exclude 'META-INF/LGPL2.1'
-}
-```
-#### 4.2 `com.android.ide.common.signing.KeytoolException: Failed to read key AndroidDebugKey from store出现这个问题`
-请删除以下两个文件并clean build之后rebuild（此文件的地址请看报错信息）:
+![image-20241201225035888](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20241201225035888.png)![image-20241201225117730](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20241201225117730.png)
 
-![Alt Text](./004.png)
+附加功能2：
+
+多类型笔记
+
+在笔记中加入图片，视频
+
+![Screenshot_20241201_202154](C:\Users\86136\Downloads\Screenshot_20241201_202154.jpg)
+
+点addimage可以将系统中图片加入笔记
+
+核心代码：![image-20241201224813841](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20241201224813841.png)
+
+![image-20241201224847280](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20241201224847280.png)
