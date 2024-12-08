@@ -6,7 +6,8 @@
 
 ![Screenshot_20241201_225213](Screenshot_20241201_225213.jpg)
 时间戳核心代码
-![[image-20241201224813841](屏幕截图 2024-12-01 224712.png)](https://github.com/joyier/midproject/blob/46dad55f664d4930beaa6bc3bac68b22240f8427/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-12-01%20225102.png)
+![[image-20241201224813841](屏幕截图 2024-12-01 224712.png)](https://github.com/joyier/midproject/blob/13b75214cb5e4659e81752aa031b26cebba18c8f/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-12-08%20120220.png)
+
 附加功能1
 
 ui美化
